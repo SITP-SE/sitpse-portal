@@ -243,6 +243,9 @@ section{padding:68px 0;}
 }
 .discovery-form textarea{resize:vertical; min-height:110px;}
 .discovery-form input:focus, .discovery-form textarea:focus{border-color:var(--teal);}
+.discovery-form input.invalid, .discovery-form textarea.invalid{border-color:#B3261E;}
+.discovery-form .field-hint{font-size:13px; color:var(--slate); margin-top:-2px;}
+.discovery-form .field-error{font-size:13px; font-weight:500; color:#B3261E;}
 .discovery-form .submit-row{display:flex; align-items:center; gap:16px; flex-wrap:wrap;}
 .discovery-form .submit-row .cta-btn{border:none;}
 .discovery-form .submit-row .cta-btn[disabled]{opacity:0.6; cursor:not-allowed;}
